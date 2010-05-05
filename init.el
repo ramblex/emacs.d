@@ -23,6 +23,7 @@
 (require 'init-ido)
 (require 'init-color-theme)
 (require 'init-completion)
+(require 'init-jabber)
 (require 'php-mode)
 
 (require 'init-gui-frames)

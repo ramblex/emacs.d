@@ -8,6 +8,7 @@
 
 (setq auto-save-default nil)
 (setq make-backup-files nil)
+(show-paren-mode t)
 
 (normal)
 

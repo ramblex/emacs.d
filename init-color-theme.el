@@ -1,4 +1,4 @@
-(defvar *window-system-color-theme* 'color-theme-sanityinc-dark
+(defvar *window-system-color-theme* 'color-theme-alex
   "Color theme to use in window-system frames")
 (defvar *tty-color-theme* 'color-theme-terminal
   "Color theme to use in TTY frames")
@@ -9,6 +9,7 @@
 (autoload 'color-theme-tango-2 "color-theme-tango-2" "A dark colour theme" t)
 (autoload 'color-theme-ir-black "color-theme-ir-black" "A dark colour theme" t)
 (autoload 'color-theme-sanityinc-dark "color-theme-sanityinc" "A dark colour theme" t)
+(autoload 'color-theme-subdued "color-theme-subdued" "A dark colour theme" t)
 (autoload 'color-theme-alex "color-theme-alex" "A dark colour theme" t)
 (autoload 'color-theme-zen-and-art "zen-and-art" "A dark colour theme" t)
 

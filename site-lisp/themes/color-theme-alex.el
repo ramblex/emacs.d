@@ -57,6 +57,9 @@
 				 :box (:color "#111111" :line-width 3)))))
      (region ((t (:background "#555753"))))
 
+     ;; ido-mode
+     (ido-subdir ((t (:foreground "#888a85"))))
+
      (flyspell-duplicate ((t (:foreground "#fcaf3e"))))
      (flyspell-incorrect ((t (:foreground "#cc0000"))))
 

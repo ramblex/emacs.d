@@ -23,7 +23,6 @@
 (require 'init-ido)
 (require 'init-color-theme)
 (require 'init-completion)
-(require 'init-prolog)
 (require 'php-mode)
 
 (require 'init-gui-frames)

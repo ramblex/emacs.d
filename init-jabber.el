@@ -18,3 +18,7 @@
 	       (jabber-jid-displayname (jabber-jid-user from))) text)))
   (add-hook 'jabber-alert-message-hooks 'my-jabber-notify)
 )
+
+(add-hook 'jabber-chat-mode-hook #'(lambda () (setq autopair-dont-activate t)))
+
+(provide 'init-jabber)

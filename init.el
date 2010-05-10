@@ -29,7 +29,7 @@
 (require 'init-gui-frames)
 
 ;; Packages which need to be initialised using git submodule update --init
-(autoload 'magit-status "magit" "A git interface" t)
+(require 'init-git)
 
 ;; Allow access from emacsclient
 (server-start)

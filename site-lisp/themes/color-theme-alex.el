@@ -85,5 +85,10 @@
      (minibuffer-prompt ((t (:foreground "#729fcf"))))
      (info-xref ((t (:foreground "#729fcf"))))
      (info-xref-visited ((t (:foreground "#ad7fa8"))))
+
+     ;; Magit
+     (magit-item-highlight ((t (:background "gray20"))))
+     (magit-diff-add ((t (:foreground "yellowgreen"))))
+     (magit-diff-del ((t (:foreground "firebrick3"))))
      )))
 (provide 'color-theme-alex)

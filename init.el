@@ -18,6 +18,7 @@
 (require 'init-ubuntu)
 
 ;; Packages that are bundled with this repo
+(require 'init-prolog)
 (require 'init-utils)
 (require 'init-key-bindings)
 (require 'init-ido)

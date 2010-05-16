@@ -42,4 +42,10 @@
          #'(lambda ()
              (modify-syntax-entry ?* "\"")))
 
+(add-hook 'python-mode-hook
+          #'(lambda ()
+              (setq autopair-handle-action-fns
+                    (list #'autopair-default-handle-action
+                          #'autopair-python-triple-quote-action))))
+
 (provide 'init-completion)

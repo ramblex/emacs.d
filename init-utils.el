@@ -10,6 +10,12 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
   (toggle-read-only 0))
 (setq-default kill-read-only-ok t)
 
+(defun shell-command-async ()
+  "Automatically run the given shell command asynchronously"
+  (interactive)
+  (setq cmd (read-from-minibuffer "Shell command (async): "))
+  (shell-command (concat cmd " &")))
+
 (defun vi-paren-bounce ()
   "Bounce between parens like in VI"
   (interactive)

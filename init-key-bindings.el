@@ -4,6 +4,9 @@
 (global-set-key [f7] 'recompile)
 (global-set-key [f8] 'mode-compile)
 
+;; Shell command
+(global-set-key (kbd "M-!") 'shell-command-async)
+
 ;; Window navigation
 (global-set-key (kbd "C-x O") (lambda () (interactive) (other-window -1)))
 (global-set-key [f2] 'normal)

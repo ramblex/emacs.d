@@ -27,6 +27,7 @@
 (require 'init-jabber)
 (require 'init-c-mode)
 (require 'php-mode)
+(autoload 'mode-compile "mode-compile" "Command to compile current buffer file based on major mode")
 
 (require 'init-gui-frames)
 

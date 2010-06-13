@@ -91,5 +91,9 @@
      (magit-item-highlight ((t (:background "gray20"))))
      (magit-diff-add ((t (:foreground "yellowgreen"))))
      (magit-diff-del ((t (:foreground "firebrick3"))))
+
+     ;; nXHTML
+     (mumamo-background-chunk-major ((t (:background "gray2"))))
+     (mumamo-background-chunk-submode1 ((t (:background "gray10"))))
      )))
 (provide 'color-theme-alex)

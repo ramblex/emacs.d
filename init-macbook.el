@@ -5,6 +5,7 @@
   (setenv "PATH" (concat (getenv "PATH") 
                        ":/sw/bin:/usr/local/bin:/usr/texbin"
                        ":/Users/alexduller/dmd/osx/bin"))
+  (setenv "VERSIONER_PYTHON_PREFER_32_BIT" "yes")
   (setq exec-path (append exec-path '("/sw/bin" 
 				      "/usr/local/bin" 
 				      "/opt/local/bin"

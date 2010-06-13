@@ -22,17 +22,18 @@
 (require 'init-utils)
 (require 'init-key-bindings)
 (require 'init-ido)
-(require 'init-color-theme)
+;(require 'init-color-theme)
 (require 'init-completion)
 (require 'init-jabber)
 (require 'init-c-mode)
 (require 'php-mode)
-(autoload 'mode-compile "mode-compile" "Command to compile current buffer file based on major mode")
+;(autoload 'mode-compile "mode-compile" "Command to compile current buffer file based on major mode")
+;(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
 
 (require 'init-gui-frames)
 
 ;; Packages which need to be initialised using git submodule update --init
-(require 'init-git)
+;(require 'init-git)
 
 ;; Allow access from emacsclient
 (server-start)

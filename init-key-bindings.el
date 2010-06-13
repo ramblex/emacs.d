@@ -2,7 +2,7 @@
 (global-set-key [f4] 'previous-error)
 (global-set-key [f5] 'next-error)
 (global-set-key [f7] 'recompile)
-(global-set-key [f8] 'mode-compile)
+(global-set-key [f8] 'compile)
 
 ;; Shell command
 (global-set-key (kbd "M-!") 'shell-command-async)

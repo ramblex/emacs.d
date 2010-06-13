@@ -1,3 +1,8 @@
+(defun region-length ()
+  "Length of region"
+  (interactive)
+  (message (format "%d" (- (region-end) (region-beginning)))))
+
 ;; Copy line
 (defun copy-line (&optional arg)
   "Do a kill-line but copy rather than kill.  This function directly calls

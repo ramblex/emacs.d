@@ -28,7 +28,7 @@
 (require 'init-c-mode)
 (require 'php-mode)
 ;(autoload 'mode-compile "mode-compile" "Command to compile current buffer file based on major mode")
-;(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
+(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
 
 (require 'init-gui-frames)
 

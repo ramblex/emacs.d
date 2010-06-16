@@ -3,6 +3,11 @@
   (interactive)
   (message (format "%d" (- (region-end) (region-beginning)))))
 
+(defun file-contains-p (file str)
+  "Return t if the file contains str, nil otherwise"
+  (interactive)
+  (eq (shell-command (concat "grep -q '" str "' " file)) 0))
+
 ;; Copy line
 (defun copy-line (&optional arg)
   "Do a kill-line but copy rather than kill.  This function directly calls

@@ -34,6 +34,7 @@
 
 ;; Packages which need to be initialised using git submodule update --init
 (require 'init-git)
+(require 'init-python)
 
 ;; Allow access from emacsclient
 (server-start)

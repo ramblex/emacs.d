@@ -18,3 +18,5 @@
                '("\\.py\\'" flymake-pylint-init)))
 
 (add-hook 'python-mode-hook '(lambda () (flymake-mode)))
+
+(provide 'init-python)

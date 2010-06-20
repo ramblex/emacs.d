@@ -5,6 +5,7 @@
 ;(global-hl-line-mode 1)
 (setq ring-bell-function (lambda () t))
 (setq inhibit-startup-message t)
+(setq frame-title-format "%f")
 
 (setq auto-save-default nil)
 (setq make-backup-files nil)

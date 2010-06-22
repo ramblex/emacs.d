@@ -30,6 +30,8 @@
 ;(autoload 'mode-compile "mode-compile" "Command to compile current buffer file based on major mode")
 (load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
 
+(setq-default indent-tabs-mode nil)
+
 (require 'init-gui-frames)
 
 ;; Packages which need to be initialised using git submodule update --init

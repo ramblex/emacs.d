@@ -49,14 +49,20 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 (defun side-by-side ()
   "The perfect size for having two windows side by side"
   (interactive)
-  (modify-frame-parameters (selected-frame) '((width . 163) (height . 50)))
+  (if *is-windows*
+      (modify-frame-parameters (selected-frame) '((width . 163) (height . 45)))
+  (modify-frame-parameters (selected-frame) '((width . 163) (height . 50))))
   (if (one-window-p)
       (split-window-horizontally)))
 
 (defun normal ()
   "Change to only one window of width 80"
   (interactive)
-  (modify-frame-parameters (selected-frame) '((width . 80) (height . 50)))
+  (if *is-windows* 
+      (modify-frame-parameters (selected-frame) '((width . 80) 
+                                                  (height . 45)))
+    (modify-frame-parameters (selected-frame) '((width . 80) 
+                                                (height . 50))))
   (delete-other-windows))
 
 (defun generate-etags ()

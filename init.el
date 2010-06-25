@@ -1,5 +1,6 @@
-(setq *is-a-mac* t)
+(setq *is-a-mac* nil)
 (setq *is-ubuntu* nil)
+(setq *is-windows* t)
 (setq *is-cocoa-emacs* (and *is-a-mac* (eq window-system 'ns)))
 
 (require 'cl)
